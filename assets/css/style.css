@@ -1,0 +1,98 @@
+body{
+	color: rgb(255,255,255);
+}
+
+.navbar-me{
+	background: linear-gradient(-87deg, #7950a7, rgb(111,66,193) 62%, #7f5993), #5c2020;
+}
+
+.logo{
+	color: rgb(255,255,255)!important;
+	margin-right: 150px;
+}
+
+.active{
+	color: #000!important;
+	padding: 15px 10px;
+	border-radius: 12px;
+	background-color: #dddddd;
+}
+.nav-link{
+	padding: 15px 10px;
+	border-radius: 12px;
+}
+
+.nav-link-color{
+	color: #fff!important;
+}
+
+h1{
+	color: rgb(0,0,0);
+	margin-top: 16px;
+	text-align: center;
+}
+h3{
+	margin: 0;
+	color: rgb(255,255,255);
+	font-weight: bold;
+}
+
+td{
+	border-width: 1px;
+	border-color: rgb(0,0,0);
+	font-weight: bold;
+	width: 50%;
+}
+
+.black{
+	background-color: #000;
+}
+
+.card{
+	box-shadow: 1px 1px 6px rgb(47,47,47);
+}
+
+.caption{
+	background-color: #fff!important;
+	width: 100%;
+	border: none;
+}
+
+.border-remove{
+	border:  none;
+	cursor: pointer;
+}
+
+.bahandi{
+	font-weight: bold;
+	color: rgb(0,0,0);
+	background-color: #656164!important;
+}
+
+.magmaepektibo{
+	font-weight: bold;
+	color: rgb(0,0,0);
+	background-color: #c78909!important;
+}
+
+.kristohanong{
+	font-weight: bold;
+	color: rgb(0,0,0);
+	background-color: #99131e!important;
+}
+
+#hideBahin1, #hideBahin2, #hideBahin3, #hideBahin1-kristohanong, #hideBahin2-kristohanong, #hideBahin3-kristohanong, .hidden-kristohanong, .hidden
+{
+	display: none;
+}
+
+.error, .error-kristohanong{
+	border-color: red;
+}
+
+.myfooter{
+	background-color: #212529;
+	height: 50px;
+	padding-top: 15px;
+	width: 100%;
+}

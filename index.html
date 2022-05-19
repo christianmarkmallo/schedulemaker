@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>ScheduleMaker</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-lg navigation-clean-button navbar-me">
+        <div class="container">
+            <a class="navbar-brand logo" href="index.php">schedulemaker.io</a>
+            <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1" style="margin-bottom: 10px;margin-top: 10px;">
+                <span class="visually-hidden">Toggle navigation</span>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.php">Midweek Meeting&nbsp;</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-color" href="#">Public Talk Scheduler</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-color" href="#">Paragraph Reader</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <h1>Midweek Meeting Schedule Maker</h1>
+    </div>
+    <hr class="black">
+    <div class="container">
+        <div class="card mb-5">
+            <div class="card-body">
+                <h4 class="card-title text-dark text-center">Los Amigos Congregation</h4>
+                <h6 class="text-dark card-subtitle mb-2">Midweek Meeting Schedule</h6>
+                <div class="table-responsive">
+                <form>
+                    <table class="table">
+                        <tbody>
+<!-- INTRO -->
+                            <tr>
+                                <td><input type="text" class="form-control caption" value="Week of:" disabled=""></td>
+                                <td><input type="text" class="form-control border-remove" placeholder="Enter Week"></td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" class="form-control caption" value="Chairman" disabled=""></td>
+                                <td class="form">
+                                    <select class="form-control">
+                                        <option value="Pagpili">Chairman</option>
+                                        <option value="Fandida, A.">Fandida, A.</option>
+                                        <option value="Mallorca, A.">Mallorca, A.</option>
+                                        <option value="Mondido, J.">Mondido, J.</option>
+                                        <option value="Pupa, C.">Pupa, C</option>
+                                        <option value="Suarez, David">Suarez, David</option>
+                                    </select>
+                                    <select class="form-control mt-2">
+                                        <option value="Pagpili">Backup</option>
+                                        <option value="None">None</option>
+                                        <option value="Fandida, A.">Fandida, A.</option>
+                                        <option value="Mallorca, A.">Mallorca, A.</option>
+                                        <option value="Mondido, J.">Mondido, J.</option>
+                                        <option value="Pupa, C.">Pupa, C</option>
+                                        <option value="Suarez, David">Suarez, David</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" class="form-control caption" value="Opening Prayer" disabled=""></td>
+                                <td>
+                                    <select class="form-control">
+                                        <option value="Pagpili">Chairman</option>
+                                        <optgroup label="Elders">
+                                            <option value="Fandida, A.">Fandida, A.</option>
+                                            <option value="Mallorca, A.">Mallorca, A.</option>
+                                            <option value="Mondido, J.">Mondido, J.</option>
+                                            <option value="Pupa, C.">Pupa, C</option>
+                                            <option value="Suarez, David">Suarez, David</option>
+                                        </optgroup>
+                                        <optgroup label="Ministerial Servants">
+                                            <option value="Enclona, C.">Enclona, C</option>
+                                            <option value="Loma, E.">Loma, E.</option>
+                                            <option value="Mallo, C.">Mallo, C.</option>
+                                            <option value="Mondigo, C.">Mondigo, C.</option>
+                                            <option value="Suarez, Daniel">Suarez, Daniel</option>
+                                        </optgroup>
+                                    </select>
+                                </td>
+                            </tr>
+<!-- INTRO -->
+<!-- BAHANDI -->
+                            <tr>
+                                <td class = "text-center bahandi" colspan="2">
+                                    <h3>BAHANDI GIKAN SA PULONG SA DIYOS</h3>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" class="form-control caption" placeholder="Ulohan sa Pakigpulong"></td>
+                                <td>
+                                    <select class="form-control">
+                                        <option value="Pagpili">Chairman</option>
+                                        <optgroup label="Elders">
+                                            <option value="Fandida, A.">Fandida, A.</option>
+                                            <option value="Mallorca, A.">Mallorca, A.</option>
+                                            <option value="Mondido, J.">Mondido, J.</option>
+                                            <option value="Pupa, C.">Pupa, C</option>
+                                            <option value="Suarez, David">Suarez, David</option>
+                                        </optgroup>
+                                        <optgroup label="Ministerial Servants">
+                                            <option value="Enclona, C.">Enclona, C</option>
+                                            <option value="Loma, E.">Loma, E.</option>
+                                            <option value="Mallo, C.">Mallo, C.</option>
+                                            <option value="Mondigo, C.">Mondigo, C.</option>
+                                            <option value="Suarez, Daniel">Suarez, Daniel</option>
+                                        </optgroup>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" class="form-control caption" value="Espirituwal nga Bahandi" disabled=""></td>
+                                <td>
+                                    <select class="form-control">
+                                        <option value="Pagpili">Chairman</option>
+                                        <optgroup label="Elders">
+                                            <option value="Fandida, A.">Fandida, A.</option>
+                                            <option value="Mallorca, A.">Mallorca, A.</option>
+                                            <option value="Mondido, J.">Mondido, J.</option>
+                                            <option value="Pupa, C.">Pupa, C</option>
+                                            <option value="Suarez, David">Suarez, David</option>
+                                        </optgroup>
+                                        <optgroup label="Ministerial Servants">
+                                            <option value="Enclona, C.">Enclona, C</option>
+                                            <option value="Loma, E.">Loma, E.</option>
+                                            <option value="Mallo, C.">Mallo, C.</option>
+                                            <option value="Mondigo, C.">Mondigo, C.</option>
+                                            <option value="Suarez, Daniel">Suarez, Daniel</option>
+                                        </optgroup>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" class="form-control caption" value="Pagbasa sa Bibliya" disabled=""></td>
+                                <td><input type="text" class="form-control border-remove" placeholder="I-type ang modumala"></td>
+                            </tr>
+<!-- BAHANDI -->
+<!-- MAGMAEPEKTIBO -->
+                            <tr>
+                                <td class = "text-center magmaepektibo" colspan="2">
+                                    <h3>MAGMAEPEKTIBO SA MINISTERYO</h3>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" class="form-control caption" value="Pilia kung pila ka bahin" disabled=""></td>
+                                <td class="text-center">
+                                    <select class="form-control" id="mga-bahin">
+                                            <option value="0">Pilia</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                    </select>
+                                    <span id="hidden" class="hidden text-danger">This field is required</span>
+                                    <button class="btn btn-primary btn-success form-control mt-2" id="confirm-magmaepektibo" type="button">Confirm</button>
+                                    <button class="btn btn-primary btn-danger form-control mt-2" id="clear-magmaepektibo" type="button">Clear</button></td>
+                            </tr>
+                            <tr id="hideBahin1">
+                                <td>
+                                    <select class="form-control">
+                                        <option value="Pilia">Pilia unsa nga bahin</option>
+                                        <option value="Video nga 10 minutes">Video nga 10 minutes</option>
+                                        <option value="Video sa Unang Pakig-estorya">Video sa Unang Pakig-estorya</option>
+                                        <option value="Video sa Pagbalikduaw">Video sa Pagbalikduaw</option>
+                                        <option value="Unang Pakig-estorya">Unang Pakig-estorya</option>
+                                        <option value="Pagbalikduaw">Pagbalikduaw</option>
+                                        <option value="Pagtuon sa Bibliya">Pagtuon sa Bibliya</option>
+                                        <option value="Pakigpulong">Pakigpulong</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" class="form-control border-remove" placeholder="I-type ang modumala">
+                                </td>
+                            </tr>
+                            <tr id="hideBahin2">
+                                <td>
+                                    <select class="form-control">
+                                        <option value="Pilia">Pilia unsa nga bahin</option>
+                                        <option value="Video sa Unang Pakig-estorya">Video sa Unang Pakig-estorya</option>
+                                        <option value="Video sa Pagbalikduaw">Video sa Pagbalikduaw</option>
+                                        <option value="Unang Pakig-estorya">Unang Pakig-estorya</option>
+                                        <option value="Pagbalikduaw">Pagbalikduaw</option>
+                                        <option value="Pagtuon sa Bibliya">Pagtuon sa Bibliya</option>
+                                        <option value="Pakigpulong">Pakigpulong</option>
+                                    </select>
+                                </td>
+                                <td><input type="text" class="form-control border-remove" placeholder="I-type ang modumala"></td>
+                            </tr>
+                            <tr id="hideBahin3">
+                                <td>
+                                    <select class="form-control">
+                                        <option value="Pilia">Pilia unsa nga bahin</option>
+                                        <option value="Video sa Unang Pakig-estorya">Video sa Unang Pakig-estorya</option>
+                                        <option value="Video sa Pagbalikduaw">Video sa Pagbalikduaw</option>
+                                        <option value="Unang Pakig-estorya">Unang Pakig-estorya</option>
+                                        <option value="Pagbalikduaw">Pagbalikduaw</option>
+                                        <option value="Pagtuon sa Bibliya">Pagtuon sa Bibliya</option>
+                                        <option value="Pakigpulong">Pakigpulong</option>
+                                    </select>
+                                </td>
+                                <td><input type="text" class="form-control border-remove" placeholder="I-type ang modumala"></td>
+                            </tr>
+<!-- MAGMAEPEKTIBO -->
+<!-- KRISTOHANONG PAGKINABUHI -->
+                            <tr>
+                                <td class = "text-center kristohanong" colspan="2">
+                                    <h3>KRISTOHANONG PAGKINABUHI</h3>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" class="form-control caption" value="Pilia kung pila ka bahin" disabled=""></td>
+                                <td class="text-center">
+                                    <select class="form-control" id="mga-bahin-kristohanong">
+                                            <option value="0">Pilia</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                    </select>
+                                    <span id="hidden-kristohanong" class="hidden-kristohanong text-danger">This field is required</span>
+                                    <button class="btn btn-primary btn-success form-control mt-2" id="confirm-kristohanong" type="button">Confirm</button>
+                                    <button class="btn btn-primary btn-danger form-control mt-2" id="clear-kristohanong" type="button">Clear</button></td>
+                            </tr>
+                            <tr id="hideBahin1-kristohanong">
+                                <td>
+                                    <input type="text" class="form-control border-remove" placeholder="Ulohan sa Bahin">
+                                </td>
+                                <td>
+                                    <select class="form-control">
+                                        <option value="Pagpili">Chairman</option>
+                                        <optgroup label="Elders">
+                                            <option value="Fandida, A.">Fandida, A.</option>
+                                            <option value="Mallorca, A.">Mallorca, A.</option>
+                                            <option value="Mondido, J.">Mondido, J.</option>
+                                            <option value="Pupa, C.">Pupa, C</option>
+                                            <option value="Suarez, David">Suarez, David</option>
+                                        </optgroup>
+                                        <optgroup label="Ministerial Servants">
+                                            <option value="Enclona, C.">Enclona, C</option>
+                                            <option value="Loma, E.">Loma, E.</option>
+                                            <option value="Mallo, C.">Mallo, C.</option>
+                                            <option value="Mondigo, C.">Mondigo, C.</option>
+                                            <option value="Suarez, Daniel">Suarez, Daniel</option>
+                                        </optgroup>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr id="hideBahin2-kristohanong">
+                                <td>
+                                    <input type="text" class="form-control border-remove" placeholder="Ulohan sa Bahin">
+                                </td>
+                                <td>
+                                    <select class="form-control">
+                                        <option value="Pagpili">Chairman</option>
+                                        <optgroup label="Elders">
+                                            <option value="Fandida, A.">Fandida, A.</option>
+                                            <option value="Mallorca, A.">Mallorca, A.</option>
+                                            <option value="Mondido, J.">Mondido, J.</option>
+                                            <option value="Pupa, C.">Pupa, C</option>
+                                            <option value="Suarez, David">Suarez, David</option>
+                                        </optgroup>
+                                        <optgroup label="Ministerial Servants">
+                                            <option value="Enclona, C.">Enclona, C</option>
+                                            <option value="Loma, E.">Loma, E.</option>
+                                            <option value="Mallo, C.">Mallo, C.</option>
+                                            <option value="Mondigo, C.">Mondigo, C.</option>
+                                            <option value="Suarez, Daniel">Suarez, Daniel</option>
+                                        </optgroup>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr id="hideBahin3-kristohanong">
+                                <td>
+                                    <input type="text" class="form-control caption" value="Pagtuon sa Kongregasyon sa Bibliya" disabled="">
+                                </td>
+                                <td>
+                                    <select class="form-control">
+                                        <option value="Pagpili">Chairman</option>
+                                        <optgroup label="Elders">
+                                            <option value="Fandida, A.">Fandida, A.</option>
+                                            <option value="Mallorca, A.">Mallorca, A.</option>
+                                            <option value="Mondido, J.">Mondido, J.</option>
+                                            <option value="Pupa, C.">Pupa, C</option>
+                                            <option value="Suarez, David">Suarez, David</option>
+                                        </optgroup>
+                                        <optgroup label="Ministerial Servants">
+                                            <option value="Enclona, C.">Enclona, C</option>
+                                            <option value="Loma, E.">Loma, E.</option>
+                                            <option value="Mallo, C.">Mallo, C.</option>
+                                            <option value="Mondigo, C.">Mondigo, C.</option>
+                                            <option value="Suarez, Daniel">Suarez, Daniel</option>
+                                        </optgroup>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class = "text-center" colspan="2">
+                                    <div class="row">
+                                        <div class="col-md-4"></div>
+                                        <div class="col-md-4">
+                                            <input type="submit" name="Submit" class="form-control btn-success" >
+                                        </div>
+                                        <div class="col-md-4"></div>
+                                    </div>
+                                </td>
+                            </tr>
+<!-- KRISTOHANONG PAGKINABUHI -->
+
+                        </tbody>
+                    </table>
+                </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="text-center myfooter">Copyright @ 2022 | web.kram</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+</body>
+
+</html>
